@@ -1,0 +1,35 @@
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth {
+  flex-basis: 25%;
+}
+
+.thirds {
+  flex-basis: 33%;
+}
+
+img {
+  width: 100%;
+}
+
+.half-image {
+  flex-basis: 30%;
+}
+
+.half-text {
+  flex-basis: 70%;
+}
