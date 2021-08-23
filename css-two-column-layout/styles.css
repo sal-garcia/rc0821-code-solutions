@@ -1,0 +1,56 @@
+.container {
+  font-family: 'Karla', sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+  flex-basis: 25%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-title {
+  line-height: 10px;
+  text-align: center;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.text-container {
+  flex-basis: 50%;
+}
+
+.text-height {
+  line-height: 25px;
+}
+
+.title-col {
+  line-height: 5px;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.btn-row {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+button {
+  color: #d14c45;
+  background-color: white;
+  border-color: #d14c45;
+  border-style: solid;
+  width: 200px;
+  height: 40px;
+}
