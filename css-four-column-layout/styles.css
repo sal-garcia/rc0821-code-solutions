@@ -1,0 +1,43 @@
+.container {
+  background-color: #f7f8fa;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.first-row {
+  justify-content: center;
+}
+
+.phones-size {
+  width: 230px;
+}
+
+.icon {
+  width: 50px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 13%;
+}
+
+.second-row {
+  justify-content: center;
+}
+
+h3,
+h2 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+}
