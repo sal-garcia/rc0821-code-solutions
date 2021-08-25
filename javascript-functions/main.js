@@ -31,8 +31,8 @@ var object = {
 console.log(getFirstName(object));
 
 function getLastElement(array) {
-  var last = array.length;
+  var last = array[array.length - 1];
   return last;
 }
-var array = [1, 2, 3, 4];
+var array = [1, 2, 3, 'last'];
 console.log(getLastElement(array));
