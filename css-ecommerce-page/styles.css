@@ -1,0 +1,36 @@
+.container {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+img {
+  width: 270px;
+  height: 380px;
+}
+
+.peach {
+  background-color: #fff2e7;
+}
+
+.grey,
+del {
+  color: #dcdcdc;
+}
+
+.black {
+  color: black;
+}
+
+.col > p {
+  margin-bottom: 5px;
+}
