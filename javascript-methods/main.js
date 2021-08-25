@@ -5,8 +5,8 @@ var maximumValue = Math.max(one, two, three);
 console.log(maximumValue);
 
 var heroes = ['superman', 'batman', 'spiderman', 'greenlantern'];
-var randomNumber = Math.random(heroes);
-randomNumber += randomNumber * heroes.length;
+var randomNumber = Math.random();
+randomNumber = randomNumber * heroes.length;
 var randomIndex = Math.floor(randomNumber);
 console.log(randomIndex);
 var randomHero = heroes[randomIndex];
@@ -45,8 +45,8 @@ library.splice(1, 1);
 console.log(library);
 
 var fullName = 'sal garcia';
-var firstAnsLastName = fullName.split(' ');
-console.log(firstAnsLastName);
-var firstName = firstAnsLastName[0];
+var firstAndLastName = fullName.split(' ');
+console.log(firstAndLastName);
+var firstName = firstAndLastName[0];
 var sayMyName = firstName.toUpperCase();
 console.log(sayMyName);
