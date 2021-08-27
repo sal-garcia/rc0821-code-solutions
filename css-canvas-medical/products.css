@@ -1,0 +1,302 @@
+
+.blue-image {
+  width: 130px;
+  align-content: center;
+}
+
+.first-row {
+  justify-content: space-around;
+  height: 60px;
+  border-bottom: solid rgb(218, 216, 216) 1px;
+  align-items: center;
+}
+
+.blue-canvas {
+  flex-basis: 50%;
+  align-items: flex-start;
+  padding-left: 7%;
+}
+
+.first-row-link {
+  flex-basis: 12%;
+  justify-content: center;
+}
+
+.first-row-button > button {
+  color: white;
+  background-color: #294464;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.first-row-button {
+  flex-basis: 4%;
+  padding-right: 12%;
+}
+
+.first-row-flex-end {
+  justify-content: space-around;
+  flex-basis: 57%;
+}
+
+.first-row-link > a {
+  color: #acacac;
+  font-family: 'Avenir', sans-serif;
+  text-decoration: none;
+}
+
+/* first row */
+
+.image-background {
+  position: relative;
+  width: 85%;
+  height: 85%;
+  opacity: 0.8;
+  filter: brightness(0.8);
+}
+
+.second-row-image-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.second-row {
+  justify-content: center;
+}
+
+.text-on-image {
+  position: absolute;
+  width: 520px;
+  color: white;
+  top: 250px;
+  left: 533px;
+}
+
+.text-on-image > p {
+  line-height: 25px;
+  font-family: 'Avenir', sans-serif;
+}
+
+.text-on-image > h1 {
+  font-family: 'Tiempos Headline', sans-serif;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+/* second row */
+
+.third-row {
+  height: 600px;
+  background-color: #fafafa;
+  justify-content: center;
+  position: relative;
+}
+
+.third-row > img {
+  width: 40%;
+}
+
+.text-third-row {
+  position: absolute;
+  width: 420px;
+  right: 50px;
+  line-height: 20px;
+  top: 100px;
+  font-family: 'Avanir', sans-serif;
+}
+
+.text-third-row > h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #5b597b;
+}
+
+.blue-link-third {
+  color: #0a4265;
+  text-decoration: none;
+}
+
+.italic-third {
+  font-style: italic;
+}
+
+.third-paragraphs {
+  color: #5b597b;
+}
+
+/* third row */
+.text-fourth-row {
+  position: absolute;
+  width: 431px;
+  left: 50px;
+  line-height: 20px;
+  top: 100px;
+  font-family: 'Avanir', sans-serif;
+}
+
+.text-fourth-row > h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #5b597b;
+}
+
+.fourth-row-image {
+  position: absolute;
+  right: 2px;
+  width: 50%;
+  bottom: 74px;
+}
+
+.fourth-row {
+  background-color: white;
+  height: 160px;
+  justify-content: center;
+  position: relative;
+  border-top: solid rgb(218, 216, 216) 1px;
+  width: 97%;
+}
+
+.fourth-row > img {
+  width: 40%;
+}
+
+.fourth-row-first {
+  background-color: white;
+  height: 578px;
+  justify-content: center;
+  position: relative;
+  border-top: solid rgb(218, 216, 216) 1px;
+  width: 97%;
+}
+
+/* fourth row */
+
+.left-fourth-text {
+  color: #6e6e6e;
+  flex-basis: 60%;
+  flex-basis: 74%;
+}
+
+.left-fourth-text > p {
+  font-family: 'Tiempos Headline', sans-serif;
+}
+
+.blue-button {
+  color: white;
+  background-color: #294464;
+  width: 80%;
+  height: 50%;
+  font-size: medium;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.right-fourth-button {
+  justify-content: flex-start;
+  flex-basis: 20%;
+  align-items: flex-end;
+  margin-top: 50px;
+}
+
+/* fifth row */
+.fifth-row {
+  background-color: #525351;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  color: white;
+  font-family: 'Avenir', sans-serif;
+}
+
+.image-size {
+  width: 125px;
+}
+
+.column-width-left {
+  width: 190px;
+  line-height: 25px;
+}
+
+.halfs {
+  justify-content: space-around;
+  flex-basis: 42%;
+}
+
+.link-color-fifth-row {
+  color: white;
+}
+
+.col-fifth {
+  line-height: 10px;
+}
+
+.white-image-container {
+  margin-bottom: 20px;
+}
+
+.one-third-container {
+  display: flex;
+  flex-basis: 41%;
+}
+
+/*  fifth-row */
+
+.last-row {
+  background-color: #fafafa;
+  height: 100px;
+  align-items: center;
+  font-family: 'Avenir', sans-serif;
+}
+
+.bottom-links-space-around {
+  justify-content: space-between;
+  flex-basis: 75%;
+  display: flex;
+}
+
+.last-links-color {
+  color: #8d8d8d;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  flex-basis: 40%;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.last-row-links-container-width {
+  display: flex;
+  flex-basis: 80%;
+}
+
+/* last row */
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+#blue-product {
+  color: #0a4265;
+}
+
+/* reusable */
+}
