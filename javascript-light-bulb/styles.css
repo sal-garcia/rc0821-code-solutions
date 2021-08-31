@@ -1,0 +1,18 @@
+
+.black-background {
+  background-color: black;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 98px;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(250, 234, 132);
+}
+
+.clicked-light-bulb {
+  background-color: #252525;
+}
