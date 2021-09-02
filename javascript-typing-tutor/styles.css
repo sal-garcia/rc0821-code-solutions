@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  margin-top: 300px;
+  font-family: sans-serif;
+}
+
+.green {
+  color: #18cd1b;
+}
+
+.red {
+  color: #f80606;
+}
+
+.bottomBlack {
+  border-bottom: 4px solid black;
+}
+
+.bottomRed {
+  border-bottom: 4px solid red;
+}
+
+.space {
+  margin-right: 20px;
+}
