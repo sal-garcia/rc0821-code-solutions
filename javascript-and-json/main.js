@@ -19,7 +19,7 @@ console.log(typeof array, array);
 console.log(JSON.stringify(array));
 console.log(typeof JSON.stringify(array));
 
-var stringThree = '{ "id": 36844 }';
+var stringThree = '{ "id": 36844, "name": "paul" }';
 console.log(stringThree);
 console.log(typeof stringThree);
 
